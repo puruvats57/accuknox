@@ -1,14 +1,17 @@
 Run docker image
 
-$ docker run -it Prateek/logreader:latest
+$ docker run -it akkyou/assign2:latest
+
 
 
 Run locally
 
 $ g++ main.cpp
-$ ./a.out
+
+$ ./a.out log.dat
+
 
 
 Build docker image
 
-$ docker build -t Prateek/logreader:latest .
+$ docker build -t akkyou/assign2:latest .
