@@ -41,7 +41,7 @@ int main(int argc, char **argv)
 {
     string fname = "";
     
-    for (int i = 0; i < argc; ++i)
+    for (int i = 1; i < argc; ++i)
         fname+=argv[i];
 
     cout << fname<<"\n";
