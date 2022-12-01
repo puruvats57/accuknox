@@ -1,6 +1,6 @@
 FROM gcc:latest
 
-COPY . /usr/src/logreader
-WORKDIR /usr/src/logreader
-RUN g++ -o logreader main.cpp
-CMD ["./logreader","log.dat"]
+COPY . /assign
+WORKDIR /assign
+RUN g++ -o assign.out main.cpp
+CMD ["./assign.out","log.dat"]
