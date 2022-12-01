@@ -1,6 +1,6 @@
 Run docker image
 
-$ docker run -it kanwal/logreader:latest
+$ docker run -it Prateek/logreader:latest
 
 
 Run locally
@@ -11,4 +11,4 @@ $ ./a.out
 
 Build docker image
 
-$ docker build -t kanwal/logreader:latest .
+$ docker build -t Prateek/logreader:latest .
